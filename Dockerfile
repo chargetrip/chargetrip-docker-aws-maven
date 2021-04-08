@@ -3,7 +3,7 @@ FROM chargetripio/chargetrip-docker-aws:latest
 ENV MAVEN_VERSION 3.6.3
 ENV MAVEN_HOME /usr/lib/mvn
 ENV PATH $MAVEN_HOME/bin:$PATH
-ENV JAVA_HOME=/usr/lib/jvm/openjdk-14-jdk
+ENV JAVA_HOME=/usr/lib/jvm/java-14-openjdk
 ENV PATH=$PATH:$JAVA_HOME/bin
 
 RUN ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime
